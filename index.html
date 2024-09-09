@@ -1,53 +1,80 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
-    <title>Guiminamflix</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Incríveis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        .carro {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        .carro img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .carro h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
-
 <body>
-    <header>GUIMINAMFLIX</header>
 
-    <section class="chamada">
-        <div class="chamada-texto">
-            <h1>ATRAVÉS DO ARANHAVERSO</h1>
-            <p>#homem-aranha</p>
+    <header>
+        <h1>Bem-vindo ao Mundo dos Carros Incríveis</h1>
+    </header>
+
+    <section>
+        <div class="carro">
+            <h2>Ferrari 488 GTB</h2>
+            <img src="https://example.com/ferrari.jpg" alt="Ferrari 488 GTB">
+            <p>A Ferrari 488 GTB é um supercarro italiano que combina design impressionante com performance de tirar o fôlego. Com um motor V8 de 670 cavalos de potência, ela pode acelerar de 0 a 100 km/h em apenas 3 segundos.</p>
         </div>
 
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/gt_fAE1Eg2Q?si=EEv-tsY_b1B2OwKE"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="carro">
+            <h2>Chevrolet Camaro</h2>
+            <img src="https://example.com/camaro.jpg" alt="Chevrolet Camaro">
+            <p>O Chevrolet Camaro é um ícone americano de carros esportivos. Com um visual agressivo e motores potentes, ele oferece uma experiência de direção empolgante, seja nas ruas ou nas pistas.</p>
         </div>
-    </section>
 
-    <section class="categoria">
-        <h2>Filmes e séries</h2>
-        <div class="categoria-videos">
-            <a href="https://www.youtube.com/watch?v=cs15QqG6Gjc">
-                <img src="https://img.youtube.com/vi/cs15QqG6Gjc/maxresdefault.jpg" />
-            </a>
-            <a href="https://www.youtube.com/watch?v=nCmIwcycUJ8">
-                <img src="https://img.youtube.com/vi/nCmIwcycUJ8/maxresdefault.jpg" />
-            </a>
-            <a href="https://www.youtube.com/watch?v=FvRmEapoHRc">
-                <img src="https://img.youtube.com/vi/FvRmEapoHRc/maxresdefault.jpg" />
-            </a>
-            <a href="https://www.youtube.com/watch?v=Ipkw_hWW-Hw">
-                <img src="https://img.youtube.com/vi/Ipkw_hWW-Hw/maxresdefault.jpg" />
-            </a>
-            <a href="https://www.youtube.com/watch?v=d4DzMNGoyis">
-                <img src="https://img.youtube.com/vi/d4DzMNGoyis/maxresdefault.jpg" />
-            </a>
+        <div class="carro">
+            <h2>Porsche 911</h2>
+            <img src="https://example.com/porsche.jpg" alt="Porsche 911">
+            <p>O Porsche 911 é um dos modelos mais icônicos da história automobilística. Com uma mistura perfeita de desempenho, luxo e tradição, ele continua a ser um dos carros esportivos mais desejados do mundo.</p>
         </div>
     </section>
+
+    <footer>
+        <p>Todos os direitos reservados &copy; 2024</p>
+    </footer>
 
 </body>
-
 </html>
